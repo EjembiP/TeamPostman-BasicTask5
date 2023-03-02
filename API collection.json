@@ -1,0 +1,208 @@
+{
+	"info": {
+		"_postman_id": "2188f528-3388-45d5-ac2c-f14b769d1365",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25888994"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code name should have an OK string\", function () {\r",
+							"    pm.response.to.have.status(\"OK\");\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.postman.com/collections/15036f85a35d875ecfdf?",
+					"protocol": "https",
+					"host": [
+						"www",
+						"postman",
+						"com"
+					],
+					"path": [
+						"collections",
+						"15036f85a35d875ecfdf"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://www.postman.com/collections/15036f85a35d875ecfdf?",
+							"protocol": "https",
+							"host": [
+								"www",
+								"postman",
+								"com"
+							],
+							"path": [
+								"collections",
+								"15036f85a35d875ecfdf"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 02 Mar 2023 18:47:55 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains; preload"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": ""
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "x-srv-trace",
+							"value": "v=1;t=ae08c6c677493df8"
+						},
+						{
+							"key": "x-srv-span",
+							"value": "v=1;s=86203f342df86e88"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "private, no-cache, no-store, must-revalidate"
+						},
+						{
+							"key": "Expires",
+							"value": "-1"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"29f3-xWvSKDn3uo/n3h7PefwuuHcH+qc\""
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "X-Cache",
+							"value": "Miss from cloudfront"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 d3fdd96b3ada000b1a8c2d522534c124.cloudfront.net (CloudFront)"
+						},
+						{
+							"key": "X-Amz-Cf-Pop",
+							"value": "AMS54-C1"
+						},
+						{
+							"key": "X-Amz-Cf-Id",
+							"value": "OHZsuz7VYusgRSJ7iJFIvBk0cwHPJkIv78Q3EIdcqEQB6CITkN8mNg=="
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Server-Timing",
+							"value": "cf-q-config;dur=7.0000000960135e-06"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "7a1bcf965cefb963-AMS"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"4c03efcb-f082-448a-a23a-59efc623ef2f\",\n    \"name\": \"MyTutorCollection\",\n    \"description\": \"For collection of my own examples during tutorial training\",\n    \"auth\": null,\n    \"events\": null,\n    \"variables\": [],\n    \"order\": [\n        \"acd9e54c-f8ff-49ce-92c5-bd4ca1d3ca36\"\n    ],\n    \"folders_order\": [\n        \"ced65177-78d1-43e6-8e7a-ba20571d8f05\",\n        \"9ccaf13d-fa2a-468f-9ce8-11751147e05b\",\n        \"312a1e48-ba5a-4eed-8754-67ea290151d4\"\n    ],\n    \"folders\": [\n        {\n            \"id\": \"ced65177-78d1-43e6-8e7a-ba20571d8f05\",\n            \"name\": \"All my GET Request\",\n            \"description\": \"\",\n            \"auth\": null,\n            \"events\": null,\n            \"collection\": \"4c03efcb-f082-448a-a23a-59efc623ef2f\",\n            \"folder\": null,\n            \"order\": [\n                \"53ff73f9-7b19-4347-a69f-72dd135fd67d\",\n                \"897703cb-1685-4e0b-a218-736e8a1cec04\",\n                \"7e76cfc7-3b11-436f-b86b-fdf72fc7b604\",\n                \"c32639ac-75cc-4615-bdb4-ba5c315ff639\",\n                \"ccaaf604-eac0-4d60-866b-3e7e9c3adec8\"\n            ],\n            \"folders_order\": [],\n            \"collectionId\": \"4c03efcb-f082-448a-a23a-59efc623ef2f\",\n            \"folderId\": \"ced65177-78d1-43e6-8e7a-ba20571d8f05\"\n        },\n        {\n            \"id\": \"9ccaf13d-fa2a-468f-9ce8-11751147e05b\",\n            \"name\": \"All my POST Request\",\n            \"description\": \"\",\n            \"auth\": null,\n            \"events\": null,\n            \"collection\": \"4c03efcb-f082-448a-a23a-59efc623ef2f\",\n            \"folder\": null,\n            \"order\": [\n                \"efa4c7c7-4375-48bb-8ffa-25d0b2be85b0\",\n                \"9c7ada91-ce0d-47bf-ad06-88cf134fd68d\",\n                \"63353b95-57b4-46b2-9312-d9718d05610c\",\n                \"ebd4f8a6-df99-4171-a662-85a3092a2b9e\"\n            ],\n            \"folders_order\": [],\n            \"collectionId\": \"4c03efcb-f082-448a-a23a-59efc623ef2f\",\n            \"folderId\": \"9ccaf13d-fa2a-468f-9ce8-11751147e05b\"\n        },\n        {\n            \"id\": \"312a1e48-ba5a-4eed-8754-67ea290151d4\",\n            \"name\": \"Trello\",\n            \"description\": null,\n            \"auth\": null,\n            \"events\": null,\n            \"collection\": \"4c03efcb-f082-448a-a23a-59efc623ef2f\",\n            \"folder\": null,\n            \"order\": [\n                \"f7d0ee08-470a-459b-b4c5-57fe58878dff\",\n                \"ec2b55fa-c418-4070-9c27-692f4db74342\"\n            ],\n            \"folders_order\": [],\n            \"collectionId\": \"4c03efcb-f082-448a-a23a-59efc623ef2f\",\n            \"folderId\": \"312a1e48-ba5a-4eed-8754-67ea290151d4\"\n        }\n    ],\n    \"requests\": [\n        {\n            \"id\": \"53ff73f9-7b19-4347-a69f-72dd135fd67d\",\n            \"name\": \"example.com\",\n            \"url\": \"example.com \",\n            \"description\": null,\n            \"data\": [\n                {\n                    \"key\": \"Firstname\",\n                    \"value\": \"Ibironke Yekinni\",\n                    \"description\": \"\",\n                    \"type\": \"text\",\n                    \"enabled\": true\n                }\n            ],\n            \"dataMode\": \"urlencoded\",\n            \"headerData\": [\n                {\n                    \"key\": \"Content-Type\",\n                    \"value\": \"application/x-www-form-urlencoded\",\n                    \"description\": \"\"\n                },\n                {\n                    \"key\": \"My-Own-Header\",\n                    \"value\": \"Postman Revision\",\n                    \"description\": \"\",\n                    \"enabled\": true\n                }\n            ],\n            \"method\": \"GET\",\n            \"pathVariableData\": [],\n            \"queryParams\": [],\n            \"auth\": {\n                \"type\": \"noauth\"\n            },\n            \"events\": null,\n            \"folder\": \"ced65177-78d1-43e6-8e7a-ba20571d8f05\",\n            \"currentHelper\": null,\n            \"helperAttributes\": null,\n            \"collectionId\": \"4c03efcb-f082-448a-a23a-59efc623ef2f\",\n            \"headers\": \"Content-Type: application/x-www-form-urlencoded\\nMy-Own-Header: Postman Revision\\n\",\n            \"pathVariables\": {}\n        },\n        {\n            \"id\": \"63353b95-57b4-46b2-9312-d9718d05610c\",\n            \"name\": \"https://www.getpostman.com/img/v2/logo-glyph.png\",\n            \"url\": \"https://www.getpostman.com/img/v2/logo-glyph.png\",\n            \"description\": null,\n            \"data\": [],\n            \"dataMode\": \"raw\",\n            \"headerData\": [\n                {\n                    \"key\": \"Content-Type\",\n                    \"type\": \"text\",\n                    \"name\": \"Content-Type\",\n                    \"value\": \"application/json\",\n                    \"disabled\": false\n                }\n            ],\n            \"method\": \"POST\",\n            \"pathVariableData\": [],\n            \"queryParams\": [],\n            \"auth\": null,\n            \"events\": null,\n            \"folder\": \"9ccaf13d-fa2a-468f-9ce8-11751147e05b\",\n            \"currentHelper\": null,\n            \"helperAttributes\": null,\n            \"collectionId\": \"4c03efcb-f082-448a-a23a-59efc623ef2f\",\n            \"rawModeData\": \"{\\n    \\\"name\\\": \\\"ibironke\\\",\\n    \\\"level\\\": \\\"400Level\\\",\\n    \\\"department\\\": \\\"Computer Science\\\"\\n}\",\n            \"headers\": \"Content-Type: application/json\\n\",\n            \"pathVariables\": {}\n        },\n        {\n            \"id\": \"7e76cfc7-3b11-436f-b86b-fdf72fc7b604\",\n            \"name\": \"https://www.getpostman.com/img/v2/logo-glyph.png\",\n            \"url\": \"https://www.getpostman.com/img/v2/logo-glyph.png\",\n            \"description\": null,\n            \"data\": [],\n            \"dataMode\": \"params\",\n            \"headerData\": [],\n            \"method\": \"GET\",\n            \"pathVariableData\": [],\n            \"queryParams\": [],\n            \"auth\": null,\n            \"events\": null,\n            \"folder\": \"ced65177-78d1-43e6-8e7a-ba20571d8f05\",\n            \"currentHelper\": null,\n            \"helperAttributes\": null,\n            \"collectionId\": \"4c03efcb-f082-448a-a23a-59efc623ef2f\",\n            \"headers\": \"\",\n            \"pathVariables\": {}\n        },\n        {\n            \"id\": \"897703cb-1685-4e0b-a218-736e8a1cec04\",\n            \"name\": \"Postman Logo\",\n            \"url\": \"https://www.getpostman.com/img/v2/logo-glyph.png\",\n            \"description\": null,\n            \"data\": [],\n            \"dataMode\": \"params\",\n            \"headerData\": [],\n            \"method\": \"GET\",\n            \"pathVariableData\": [],\n            \"queryParams\": [],\n            \"auth\": null,\n            \"events\": null,\n            \"folder\": \"ced65177-78d1-43e6-8e7a-ba20571d8f05\",\n            \"currentHelper\": null,\n            \"helperAttributes\": null,\n            \"collectionId\": \"4c03efcb-f082-448a-a23a-59efc623ef2f\",\n            \"headers\": \"\",\n            \"pathVariables\": {}\n        },\n        {\n            \"id\": \"9c7ada91-ce0d-47bf-ad06-88cf134fd68d\",\n            \"name\": \"https://www.getpostman.com/img/v2/logo-glyph.png\",\n            \"url\": \"https://www.getpostman.com/img/v2/logo-glyph.png\",\n            \"description\": null,\n            \"data\": [],\n            \"dataMode\": \"raw\",\n            \"headerData\": [\n                {\n                    \"key\": \"Content-Type\",\n                    \"type\": \"text\",\n                    \"name\": \"Content-Type\",\n                    \"value\": \"application/json\",\n                    \"disabled\": false\n                }\n            ],\n            \"method\": \"POST\",\n            \"pathVariableData\": [],\n            \"queryParams\": [],\n            \"auth\": null,\n            \"events\": null,\n            \"folder\": \"9ccaf13d-fa2a-468f-9ce8-11751147e05b\",\n            \"currentHelper\": null,\n            \"helperAttributes\": null,\n            \"collectionId\": \"4c03efcb-f082-448a-a23a-59efc623ef2f\",\n            \"rawModeData\": \"{\\n    \\\"name\\\": \\\"ibironke\\\",\\n    \\\"level\\\": \\\"400Level\\\",\\n    \\\"department\\\": \\\"Computer Science\\\"\\n}\",\n            \"headers\": \"Content-Type: application/json\\n\",\n            \"pathVariables\": {}\n        },\n        {\n            \"id\": \"acd9e54c-f8ff-49ce-92c5-bd4ca1d3ca36\",\n            \"name\": \"My assignment\",\n            \"url\": \"https://api.nytimes.com/svc/books/v3/lists.json?list=hardcover-nonfiction&published-date=2018-04-22&rank-last-week=4&rank=1\",\n            \"description\": null,\n            \"data\": [],\n            \"dataMode\": \"params\",\n            \"headerData\": [\n                {\n                    \"key\": \"api-key\",\n                    \"value\": \"591cfc0d6f9f439e82120e3997984477\",\n                    \"enabled\": true\n                }\n            ],\n            \"method\": \"GET\",\n            \"pathVariableData\": [],\n            \"queryParams\": [\n                {\n                    \"key\": \"list\",\n                    \"value\": \"hardcover-nonfiction\",\n                    \"equals\": true,\n                    \"enabled\": true\n                },\n                {\n                    \"key\": \"published-date\",\n                    \"value\": \"2018-04-22\",\n                    \"equals\": true,\n                    \"enabled\": true\n                },\n                {\n                    \"key\": \"rank-last-week\",\n                    \"value\": \"4\",\n                    \"equals\": true,\n                    \"enabled\": true\n                },\n                {\n                    \"key\": \"rank\",\n                    \"value\": \"1\",\n                    \"equals\": true,\n                    \"enabled\": true\n                }\n            ],\n            \"auth\": null,\n            \"events\": null,\n            \"folder\": null,\n            \"currentHelper\": null,\n            \"helperAttributes\": null,\n            \"collectionId\": \"4c03efcb-f082-448a-a23a-59efc623ef2f\",\n            \"headers\": \"api-key: 591cfc0d6f9f439e82120e3997984477\\n\",\n            \"pathVariables\": {}\n        },\n        {\n            \"id\": \"c32639ac-75cc-4615-bdb4-ba5c315ff639\",\n            \"name\": \"https://www.getpostman.com/img/v2/logo-glyph.png\",\n            \"url\": \"https://www.getpostman.com/img/v2/logo-glyph.png\",\n            \"description\": null,\n            \"data\": [],\n            \"dataMode\": \"params\",\n            \"headerData\": [],\n            \"method\": \"GET\",\n            \"pathVariableData\": [],\n            \"queryParams\": [],\n            \"auth\": null,\n            \"events\": null,\n            \"folder\": \"ced65177-78d1-43e6-8e7a-ba20571d8f05\",\n            \"currentHelper\": null,\n            \"helperAttributes\": null,\n            \"collectionId\": \"4c03efcb-f082-448a-a23a-59efc623ef2f\",\n            \"headers\": \"\",\n            \"pathVariables\": {}\n        },\n        {\n            \"id\": \"ccaaf604-eac0-4d60-866b-3e7e9c3adec8\",\n            \"name\": \"https://api.getpostman.com/collections/47d18cb4-485f-4e02-b4e3-fd1a1c033833?apikey=1df3dbbf91dd4da5ae640ca98e4f8585\",\n            \"url\": \"https://api.getpostman.com/collections/47d18cb4-485f-4e02-b4e3-fd1a1c033833?apikey=1df3dbbf91dd4da5ae640ca98e4f8585\",\n            \"description\": \"\",\n            \"data\": null,\n            \"dataMode\": \"params\",\n            \"headerData\": [],\n            \"method\": \"GET\",\n            \"pathVariableData\": [],\n            \"queryParams\": [\n                {\n                    \"key\": \"apikey\",\n                    \"value\": \"1df3dbbf91dd4da5ae640ca98e4f8585\",\n                    \"equals\": true,\n                    \"description\": \"\",\n                    \"enabled\": true\n                }\n            ],\n            \"auth\": null,\n            \"events\": [],\n            \"folder\": \"ced65177-78d1-43e6-8e7a-ba20571d8f05\",\n            \"currentHelper\": null,\n            \"helperAttributes\": null,\n            \"collectionId\": \"4c03efcb-f082-448a-a23a-59efc623ef2f\",\n            \"headers\": \"\",\n            \"pathVariables\": {}\n        },\n        {\n            \"id\": \"ebd4f8a6-df99-4171-a662-85a3092a2b9e\",\n            \"name\": \"https://www.getpostman.com/img/v2/logo-glyph.png\",\n            \"url\": \"https://www.getpostman.com/img/v2/logo-glyph.png\",\n            \"description\": null,\n            \"data\": [],\n            \"dataMode\": \"raw\",\n            \"headerData\": [\n                {\n                    \"key\": \"Content-Type\",\n                    \"type\": \"text\",\n                    \"name\": \"Content-Type\",\n                    \"value\": \"application/json\",\n                    \"disabled\": false\n                }\n            ],\n            \"method\": \"POST\",\n            \"pathVariableData\": [],\n            \"queryParams\": [],\n            \"auth\": null,\n            \"events\": null,\n            \"folder\": \"9ccaf13d-fa2a-468f-9ce8-11751147e05b\",\n            \"currentHelper\": null,\n            \"helperAttributes\": null,\n            \"collectionId\": \"4c03efcb-f082-448a-a23a-59efc623ef2f\",\n            \"rawModeData\": \"{\\n    \\\"name\\\": \\\"ibironke\\\",\\n    \\\"level\\\": \\\"400Level\\\",\\n    \\\"department\\\": \\\"Computer Science\\\"\\n}\",\n            \"headers\": \"Content-Type: application/json\\n\",\n            \"pathVariables\": {}\n        },\n        {\n            \"id\": \"ec2b55fa-c418-4070-9c27-692f4db74342\",\n            \"name\": \"Cottytalk Demo 1\",\n            \"url\": \"https://api.trello.com/1/cards/5ad9ff5e43d49ec760adbdc5?key={{API_key}}&token={{API_token}}\",\n            \"description\": null,\n            \"data\": [],\n            \"dataMode\": \"params\",\n            \"headerData\": [],\n            \"method\": \"GET\",\n            \"pathVariableData\": [],\n            \"queryParams\": [\n                {\n                    \"key\": \"key\",\n                    \"value\": \"{{API_key}}\",\n                    \"equals\": true,\n                    \"enabled\": true\n                },\n                {\n                    \"key\": \"token\",\n                    \"value\": \"{{API_token}}\",\n                    \"equals\": true,\n                    \"enabled\": true\n                }\n            ],\n            \"auth\": null,\n            \"events\": null,\n            \"folder\": \"312a1e48-ba5a-4eed-8754-67ea290151d4\",\n            \"currentHelper\": null,\n            \"helperAttributes\": null,\n            \"collectionId\": \"4c03efcb-f082-448a-a23a-59efc623ef2f\",\n            \"headers\": \"\",\n            \"pathVariables\": {}\n        },\n        {\n            \"id\": \"efa4c7c7-4375-48bb-8ffa-25d0b2be85b0\",\n            \"name\": \"example.com with POST\",\n            \"url\": \"example.com \",\n            \"description\": null,\n            \"data\": [\n                {\n                    \"key\": \"Firstname\",\n                    \"value\": \"Ibironke Yekinni\",\n                    \"type\": \"text\",\n                    \"enabled\": true\n                }\n            ],\n            \"dataMode\": \"urlencoded\",\n            \"headerData\": [\n                {\n                    \"key\": \"Content-Type\",\n                    \"value\": \"application/x-www-form-urlencoded\"\n                },\n                {\n                    \"key\": \"My-Own-Header\",\n                    \"value\": \"Postman Revision\",\n                    \"enabled\": true\n                }\n            ],\n            \"method\": \"POST\",\n            \"pathVariableData\": [],\n            \"queryParams\": [],\n            \"auth\": {\n                \"type\": \"noauth\"\n            },\n            \"events\": null,\n            \"folder\": \"9ccaf13d-fa2a-468f-9ce8-11751147e05b\",\n            \"currentHelper\": null,\n            \"helperAttributes\": null,\n            \"collectionId\": \"4c03efcb-f082-448a-a23a-59efc623ef2f\",\n            \"headers\": \"Content-Type: application/x-www-form-urlencoded\\nMy-Own-Header: Postman Revision\\n\",\n            \"pathVariables\": {}\n        },\n        {\n            \"id\": \"f7d0ee08-470a-459b-b4c5-57fe58878dff\",\n            \"name\": \"Testing\",\n            \"url\": \"https://api.trello.com/1/boards/?name=Ibironke Board (2)&key=cb4b4021f8d3faa976f51fbfd3a31246&token=e0ac336a8fd917ee73aaa3f315a799be0a03959088132df90511108e92ba58c9&defaultLists=false\",\n            \"description\": null,\n            \"data\": [],\n            \"dataMode\": \"params\",\n            \"headerData\": [],\n            \"method\": \"POST\",\n            \"pathVariableData\": [],\n            \"queryParams\": [\n                {\n                    \"key\": \"name\",\n                    \"value\": \"Ibironke Board (2)\",\n                    \"equals\": true,\n                    \"enabled\": true\n                },\n                {\n                    \"key\": \"key\",\n                    \"value\": \"cb4b4021f8d3faa976f51fbfd3a31246\",\n                    \"equals\": true,\n                    \"enabled\": true\n                },\n                {\n                    \"key\": \"token\",\n                    \"value\": \"e0ac336a8fd917ee73aaa3f315a799be0a03959088132df90511108e92ba58c9\",\n                    \"equals\": true,\n                    \"enabled\": true\n                },\n                {\n                    \"key\": \"defaultLists\",\n                    \"value\": \"false\",\n                    \"equals\": true,\n                    \"enabled\": true\n                }\n            ],\n            \"auth\": null,\n            \"events\": [\n                {\n                    \"listen\": \"test\",\n                    \"script\": {\n                        \"id\": \"e784752c-0ce5-45de-9ec4-ddd475240c1c\",\n                        \"type\": \"text/javascript\",\n                        \"exec\": [\n                            \"pm.test(\\\"Status code is 200\\\", function () {\",\n                            \"    pm.response.to.have.status(200);\",\n                            \"});\",\n                            \"\",\n                            \"pm.test(\\\"Board name should be: 'Ibironke Board (2)'\\\"), function () {\",\n                            \"    var jsonData = pm.response.json();\",\n                            \"    pm.expect(jsonData.value).to.eql('Ibironke Board (2)');\",\n                            \"};\"\n                        ]\n                    }\n                }\n            ],\n            \"folder\": \"312a1e48-ba5a-4eed-8754-67ea290151d4\",\n            \"preRequestScript\": null,\n            \"tests\": \"pm.test(\\\"Status code is 200\\\", function () {\\n    pm.response.to.have.status(200);\\n});\\n\\npm.test(\\\"Board name should be: 'Ibironke Board (2)'\\\"), function () {\\n    var jsonData = pm.response.json();\\n    pm.expect(jsonData.value).to.eql('Ibironke Board (2)');\\n};\",\n            \"currentHelper\": null,\n            \"helperAttributes\": null,\n            \"collectionId\": \"4c03efcb-f082-448a-a23a-59efc623ef2f\",\n            \"headers\": \"\",\n            \"pathVariables\": {}\n        }\n    ]\n}"
+				}
+			]
+		}
+	]
+}

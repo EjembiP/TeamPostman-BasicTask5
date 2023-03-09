@@ -1,0 +1,841 @@
+{
+	"id": "70d1fd51-4894-49b7-85b3-c8e57e727ad9",
+	"name": "My API collection Task8",
+	"timestamp": "2023-03-09T18:14:07.726Z",
+	"collection_id": "25888994-bdd70245-c5ee-4965-a5c7-54935ab0227c",
+	"folder_id": 0,
+	"environment_id": "25888994-f1140e1e-85f1-4a5a-9aa3-2f509b41a9f2",
+	"totalPass": 108,
+	"delay": "",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-03-09T18:13:54.598Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "95a47fe5-2c2f-4f3f-90ea-3d65d5e699d0",
+			"name": "Get ID",
+			"url": "https://www.getpostman.com/collections/15036f85a35d875ecfdf??Id=jsonData.id",
+			"time": 1070,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code name should have an OK string": true,
+				"Status code is 200": true,
+				"confirm id is 4c03efcb-f082-448a-a23a-59efc623ef2f": true,
+				"confirm name is MyTutorCollection": true,
+				"confirm description is For collection of my own examples during tutorial training": true,
+				"confirm auth is null": true,
+				"confirm event is null ": true,
+				"confirm variables is [0] ": true,
+				"confirm order [1] is acd9e54c-f8ff-49ce-92c5-bd4ca1d3ca36 ": true,
+				"confirm folders_order: [3] ced65177-78d1-43e6-8e7a-ba20571d8f05": true,
+				"confirm requests [12] has id 53ff73f9-7b19-4347-a69f-72dd135fd67d": true
+			},
+			"testPassFailCounts": {
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm id is 4c03efcb-f082-448a-a23a-59efc623ef2f": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm name is MyTutorCollection": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm description is For collection of my own examples during tutorial training": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm auth is null": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm event is null ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm variables is [0] ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm order [1] is acd9e54c-f8ff-49ce-92c5-bd4ca1d3ca36 ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm folders_order: [3] ced65177-78d1-43e6-8e7a-ba20571d8f05": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm requests [12] has id 53ff73f9-7b19-4347-a69f-72dd135fd67d": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1070
+			],
+			"allTests": [
+				{
+					"Status code name should have an OK string": true,
+					"Status code is 200": true,
+					"confirm id is 4c03efcb-f082-448a-a23a-59efc623ef2f": true,
+					"confirm name is MyTutorCollection": true,
+					"confirm description is For collection of my own examples during tutorial training": true,
+					"confirm auth is null": true,
+					"confirm event is null ": true,
+					"confirm variables is [0] ": true,
+					"confirm order [1] is acd9e54c-f8ff-49ce-92c5-bd4ca1d3ca36 ": true,
+					"confirm folders_order: [3] ced65177-78d1-43e6-8e7a-ba20571d8f05": true,
+					"confirm requests [12] has id 53ff73f9-7b19-4347-a69f-72dd135fd67d": true
+				}
+			]
+		},
+		{
+			"id": "901058e5-f203-4ba8-82e5-56252322b2f7",
+			"name": "Get Name",
+			"url": "https://www.getpostman.com/collections/15036f85a35d875ecfdf??Name=jsonData.name",
+			"time": 573,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code name should have an OK string": true,
+				"Status code is 200": true,
+				"confirm id is 4c03efcb-f082-448a-a23a-59efc623ef2f": true,
+				"confirm name is MyTutorCollection": true,
+				"confirm description is For collection of my own examples during tutorial training": true,
+				"confirm auth is null": true,
+				"confirm event is null ": true,
+				"confirm variables is [0] ": true,
+				"confirm order [1] is acd9e54c-f8ff-49ce-92c5-bd4ca1d3ca36 ": true,
+				"confirm folders_order: [3] ced65177-78d1-43e6-8e7a-ba20571d8f05": true,
+				"confirm requests [12] has id 53ff73f9-7b19-4347-a69f-72dd135fd67d": true
+			},
+			"testPassFailCounts": {
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm id is 4c03efcb-f082-448a-a23a-59efc623ef2f": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm name is MyTutorCollection": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm description is For collection of my own examples during tutorial training": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm auth is null": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm event is null ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm variables is [0] ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm order [1] is acd9e54c-f8ff-49ce-92c5-bd4ca1d3ca36 ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm folders_order: [3] ced65177-78d1-43e6-8e7a-ba20571d8f05": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm requests [12] has id 53ff73f9-7b19-4347-a69f-72dd135fd67d": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				573
+			],
+			"allTests": [
+				{
+					"Status code name should have an OK string": true,
+					"Status code is 200": true,
+					"confirm id is 4c03efcb-f082-448a-a23a-59efc623ef2f": true,
+					"confirm name is MyTutorCollection": true,
+					"confirm description is For collection of my own examples during tutorial training": true,
+					"confirm auth is null": true,
+					"confirm event is null ": true,
+					"confirm variables is [0] ": true,
+					"confirm order [1] is acd9e54c-f8ff-49ce-92c5-bd4ca1d3ca36 ": true,
+					"confirm folders_order: [3] ced65177-78d1-43e6-8e7a-ba20571d8f05": true,
+					"confirm requests [12] has id 53ff73f9-7b19-4347-a69f-72dd135fd67d": true
+				}
+			]
+		},
+		{
+			"id": "cc779999-2e59-4225-b8f3-b743b917d994",
+			"name": "Get Description",
+			"url": "https://www.getpostman.com/collections/15036f85a35d875ecfdf??descripition=jsonData.description",
+			"time": 404,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code name should have an OK string": true,
+				"Status code is 200": true,
+				"confirm id is 4c03efcb-f082-448a-a23a-59efc623ef2f": true,
+				"confirm name is MyTutorCollection": true,
+				"confirm description is For collection of my own examples during tutorial training": true,
+				"confirm auth is null": true,
+				"confirm event is null ": true,
+				"confirm variables is [0] ": true,
+				"confirm order [1] is acd9e54c-f8ff-49ce-92c5-bd4ca1d3ca36 ": true,
+				"confirm folders_order: [3] ced65177-78d1-43e6-8e7a-ba20571d8f05": true,
+				"confirm requests [12] has id 53ff73f9-7b19-4347-a69f-72dd135fd67d": true
+			},
+			"testPassFailCounts": {
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm id is 4c03efcb-f082-448a-a23a-59efc623ef2f": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm name is MyTutorCollection": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm description is For collection of my own examples during tutorial training": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm auth is null": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm event is null ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm variables is [0] ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm order [1] is acd9e54c-f8ff-49ce-92c5-bd4ca1d3ca36 ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm folders_order: [3] ced65177-78d1-43e6-8e7a-ba20571d8f05": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm requests [12] has id 53ff73f9-7b19-4347-a69f-72dd135fd67d": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				404
+			],
+			"allTests": [
+				{
+					"Status code name should have an OK string": true,
+					"Status code is 200": true,
+					"confirm id is 4c03efcb-f082-448a-a23a-59efc623ef2f": true,
+					"confirm name is MyTutorCollection": true,
+					"confirm description is For collection of my own examples during tutorial training": true,
+					"confirm auth is null": true,
+					"confirm event is null ": true,
+					"confirm variables is [0] ": true,
+					"confirm order [1] is acd9e54c-f8ff-49ce-92c5-bd4ca1d3ca36 ": true,
+					"confirm folders_order: [3] ced65177-78d1-43e6-8e7a-ba20571d8f05": true,
+					"confirm requests [12] has id 53ff73f9-7b19-4347-a69f-72dd135fd67d": true
+				}
+			]
+		},
+		{
+			"id": "3fc5ffd0-d3a2-4655-afae-1f2ec33e4dc0",
+			"name": "Get Auth",
+			"url": "https://www.getpostman.com/collections/15036f85a35d875ecfdf??Auth=jsonData.auth",
+			"time": 368,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code name should have an OK string": true,
+				"Status code is 200": true,
+				"confirm id is 4c03efcb-f082-448a-a23a-59efc623ef2f": true,
+				"confirm name is MyTutorCollection": true,
+				"confirm description is For collection of my own examples during tutorial training": true,
+				"confirm auth is null": true,
+				"confirm event is null ": true,
+				"confirm variables is [0] ": true,
+				"confirm order [1] is acd9e54c-f8ff-49ce-92c5-bd4ca1d3ca36 ": true,
+				"confirm folders_order: [3] ced65177-78d1-43e6-8e7a-ba20571d8f05": true,
+				"confirm requests [12] has id 53ff73f9-7b19-4347-a69f-72dd135fd67d": true
+			},
+			"testPassFailCounts": {
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm id is 4c03efcb-f082-448a-a23a-59efc623ef2f": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm name is MyTutorCollection": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm description is For collection of my own examples during tutorial training": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm auth is null": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm event is null ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm variables is [0] ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm order [1] is acd9e54c-f8ff-49ce-92c5-bd4ca1d3ca36 ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm folders_order: [3] ced65177-78d1-43e6-8e7a-ba20571d8f05": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm requests [12] has id 53ff73f9-7b19-4347-a69f-72dd135fd67d": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				368
+			],
+			"allTests": [
+				{
+					"Status code name should have an OK string": true,
+					"Status code is 200": true,
+					"confirm id is 4c03efcb-f082-448a-a23a-59efc623ef2f": true,
+					"confirm name is MyTutorCollection": true,
+					"confirm description is For collection of my own examples during tutorial training": true,
+					"confirm auth is null": true,
+					"confirm event is null ": true,
+					"confirm variables is [0] ": true,
+					"confirm order [1] is acd9e54c-f8ff-49ce-92c5-bd4ca1d3ca36 ": true,
+					"confirm folders_order: [3] ced65177-78d1-43e6-8e7a-ba20571d8f05": true,
+					"confirm requests [12] has id 53ff73f9-7b19-4347-a69f-72dd135fd67d": true
+				}
+			]
+		},
+		{
+			"id": "eb1ac2b7-9fec-4600-968a-c39e9a60ea8e",
+			"name": "Get Events",
+			"url": "https://www.getpostman.com/collections/15036f85a35d875ecfdf??Events=jsonDat.events",
+			"time": 574,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code name should have an OK string": true,
+				"Status code is 200": true,
+				"confirm id is 4c03efcb-f082-448a-a23a-59efc623ef2f": true,
+				"confirm name is MyTutorCollection": true,
+				"confirm description is For collection of my own examples during tutorial training": true,
+				"confirm auth is null": true,
+				"confirm event is null ": true,
+				"confirm variables is [0] ": true,
+				"confirm order [1] is acd9e54c-f8ff-49ce-92c5-bd4ca1d3ca36 ": true,
+				"confirm folders_order: [3] ced65177-78d1-43e6-8e7a-ba20571d8f05": true,
+				"confirm requests [12] has id 53ff73f9-7b19-4347-a69f-72dd135fd67d": true
+			},
+			"testPassFailCounts": {
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm id is 4c03efcb-f082-448a-a23a-59efc623ef2f": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm name is MyTutorCollection": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm description is For collection of my own examples during tutorial training": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm auth is null": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm event is null ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm variables is [0] ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm order [1] is acd9e54c-f8ff-49ce-92c5-bd4ca1d3ca36 ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm folders_order: [3] ced65177-78d1-43e6-8e7a-ba20571d8f05": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm requests [12] has id 53ff73f9-7b19-4347-a69f-72dd135fd67d": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				574
+			],
+			"allTests": [
+				{
+					"Status code name should have an OK string": true,
+					"Status code is 200": true,
+					"confirm id is 4c03efcb-f082-448a-a23a-59efc623ef2f": true,
+					"confirm name is MyTutorCollection": true,
+					"confirm description is For collection of my own examples during tutorial training": true,
+					"confirm auth is null": true,
+					"confirm event is null ": true,
+					"confirm variables is [0] ": true,
+					"confirm order [1] is acd9e54c-f8ff-49ce-92c5-bd4ca1d3ca36 ": true,
+					"confirm folders_order: [3] ced65177-78d1-43e6-8e7a-ba20571d8f05": true,
+					"confirm requests [12] has id 53ff73f9-7b19-4347-a69f-72dd135fd67d": true
+				}
+			]
+		},
+		{
+			"id": "4ecef4dd-dcb2-4b4c-b708-c6c6cc349109",
+			"name": "Get Variables",
+			"url": "https://www.getpostman.com/collections/15036f85a35d875ecfdf??Variables=jsonData.variables",
+			"time": 544,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code name should have an OK string": true,
+				"Status code is 200": true,
+				"confirm id is 4c03efcb-f082-448a-a23a-59efc623ef2f": true,
+				"confirm name is MyTutorCollection": true,
+				"confirm description is For collection of my own examples during tutorial training": true,
+				"confirm auth is null": true,
+				"confirm event is null ": true,
+				"confirm variables is [0] ": true,
+				"confirm order [1] is acd9e54c-f8ff-49ce-92c5-bd4ca1d3ca36 ": true,
+				"confirm folders_order: [3] ced65177-78d1-43e6-8e7a-ba20571d8f05": true,
+				"confirm requests [12] has id 53ff73f9-7b19-4347-a69f-72dd135fd67d": true
+			},
+			"testPassFailCounts": {
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm id is 4c03efcb-f082-448a-a23a-59efc623ef2f": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm name is MyTutorCollection": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm description is For collection of my own examples during tutorial training": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm auth is null": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm event is null ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm variables is [0] ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm order [1] is acd9e54c-f8ff-49ce-92c5-bd4ca1d3ca36 ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm folders_order: [3] ced65177-78d1-43e6-8e7a-ba20571d8f05": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm requests [12] has id 53ff73f9-7b19-4347-a69f-72dd135fd67d": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				544
+			],
+			"allTests": [
+				{
+					"Status code name should have an OK string": true,
+					"Status code is 200": true,
+					"confirm id is 4c03efcb-f082-448a-a23a-59efc623ef2f": true,
+					"confirm name is MyTutorCollection": true,
+					"confirm description is For collection of my own examples during tutorial training": true,
+					"confirm auth is null": true,
+					"confirm event is null ": true,
+					"confirm variables is [0] ": true,
+					"confirm order [1] is acd9e54c-f8ff-49ce-92c5-bd4ca1d3ca36 ": true,
+					"confirm folders_order: [3] ced65177-78d1-43e6-8e7a-ba20571d8f05": true,
+					"confirm requests [12] has id 53ff73f9-7b19-4347-a69f-72dd135fd67d": true
+				}
+			]
+		},
+		{
+			"id": "5cbba24a-cd6b-4bd1-b335-10149d1d6fa5",
+			"name": "Get Order",
+			"url": "https://www.getpostman.com/collections/15036f85a35d875ecfdf??Order=jsonData.order",
+			"time": 552,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code name should have an OK string": true,
+				"Status code is 200": true,
+				"confirm id is 4c03efcb-f082-448a-a23a-59efc623ef2f": true,
+				"confirm name is MyTutorCollection": true,
+				"confirm description is For collection of my own examples during tutorial training": true,
+				"confirm auth is null": true,
+				"confirm event is null ": true,
+				"confirm variables is [0] ": true,
+				"confirm order [1] is acd9e54c-f8ff-49ce-92c5-bd4ca1d3ca36 ": true,
+				"confirm folders_order: [3] ced65177-78d1-43e6-8e7a-ba20571d8f05": true,
+				"confirm requests [12] has id 53ff73f9-7b19-4347-a69f-72dd135fd67d": true
+			},
+			"testPassFailCounts": {
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm id is 4c03efcb-f082-448a-a23a-59efc623ef2f": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm name is MyTutorCollection": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm description is For collection of my own examples during tutorial training": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm auth is null": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm event is null ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm variables is [0] ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm order [1] is acd9e54c-f8ff-49ce-92c5-bd4ca1d3ca36 ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm folders_order: [3] ced65177-78d1-43e6-8e7a-ba20571d8f05": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm requests [12] has id 53ff73f9-7b19-4347-a69f-72dd135fd67d": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				552
+			],
+			"allTests": [
+				{
+					"Status code name should have an OK string": true,
+					"Status code is 200": true,
+					"confirm id is 4c03efcb-f082-448a-a23a-59efc623ef2f": true,
+					"confirm name is MyTutorCollection": true,
+					"confirm description is For collection of my own examples during tutorial training": true,
+					"confirm auth is null": true,
+					"confirm event is null ": true,
+					"confirm variables is [0] ": true,
+					"confirm order [1] is acd9e54c-f8ff-49ce-92c5-bd4ca1d3ca36 ": true,
+					"confirm folders_order: [3] ced65177-78d1-43e6-8e7a-ba20571d8f05": true,
+					"confirm requests [12] has id 53ff73f9-7b19-4347-a69f-72dd135fd67d": true
+				}
+			]
+		},
+		{
+			"id": "b498f283-9159-4176-9ee4-89e9dc4a5aaf",
+			"name": "Get Folders order",
+			"url": "https://www.getpostman.com/collections/15036f85a35d875ecfdf??Folders_order=jsonData.folders_order",
+			"time": 348,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code name should have an OK string": true,
+				"Status code is 200": true,
+				"confirm id is 4c03efcb-f082-448a-a23a-59efc623ef2f": true,
+				"confirm name is MyTutorCollection": true,
+				"confirm description is For collection of my own examples during tutorial training": true,
+				"confirm auth is null": true,
+				"confirm event is null ": true,
+				"confirm variables is [0] ": true,
+				"confirm order [1] is acd9e54c-f8ff-49ce-92c5-bd4ca1d3ca36 ": true,
+				"confirm folders_order: [3] ced65177-78d1-43e6-8e7a-ba20571d8f05": true,
+				"confirm requests [12] has id 53ff73f9-7b19-4347-a69f-72dd135fd67d": true
+			},
+			"testPassFailCounts": {
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm id is 4c03efcb-f082-448a-a23a-59efc623ef2f": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm name is MyTutorCollection": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm description is For collection of my own examples during tutorial training": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm auth is null": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm event is null ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm variables is [0] ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm order [1] is acd9e54c-f8ff-49ce-92c5-bd4ca1d3ca36 ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm folders_order: [3] ced65177-78d1-43e6-8e7a-ba20571d8f05": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm requests [12] has id 53ff73f9-7b19-4347-a69f-72dd135fd67d": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				348
+			],
+			"allTests": [
+				{
+					"Status code name should have an OK string": true,
+					"Status code is 200": true,
+					"confirm id is 4c03efcb-f082-448a-a23a-59efc623ef2f": true,
+					"confirm name is MyTutorCollection": true,
+					"confirm description is For collection of my own examples during tutorial training": true,
+					"confirm auth is null": true,
+					"confirm event is null ": true,
+					"confirm variables is [0] ": true,
+					"confirm order [1] is acd9e54c-f8ff-49ce-92c5-bd4ca1d3ca36 ": true,
+					"confirm folders_order: [3] ced65177-78d1-43e6-8e7a-ba20571d8f05": true,
+					"confirm requests [12] has id 53ff73f9-7b19-4347-a69f-72dd135fd67d": true
+				}
+			]
+		},
+		{
+			"id": "fd957f4c-90ac-4345-b9ed-bf6c983d5501",
+			"name": "Get requests",
+			"url": "https://www.getpostman.com/collections/15036f85a35d875ecfdf??Requests=jsonData.requests",
+			"time": 766,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code name should have an OK string": true,
+				"Status code is 200": true,
+				"confirm id is 4c03efcb-f082-448a-a23a-59efc623ef2f": true,
+				"confirm name is MyTutorCollection": true,
+				"confirm description is For collection of my own examples during tutorial training": true,
+				"confirm auth is null": true,
+				"confirm event is null ": true,
+				"confirm variables is [0] ": true,
+				"confirm order [1] is acd9e54c-f8ff-49ce-92c5-bd4ca1d3ca36 ": true,
+				"confirm folders_order: [3] ced65177-78d1-43e6-8e7a-ba20571d8f05": true,
+				"confirm requests [12] has id 53ff73f9-7b19-4347-a69f-72dd135fd67d": true
+			},
+			"testPassFailCounts": {
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm id is 4c03efcb-f082-448a-a23a-59efc623ef2f": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm name is MyTutorCollection": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm description is For collection of my own examples during tutorial training": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm auth is null": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm event is null ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm variables is [0] ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm order [1] is acd9e54c-f8ff-49ce-92c5-bd4ca1d3ca36 ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm folders_order: [3] ced65177-78d1-43e6-8e7a-ba20571d8f05": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm requests [12] has id 53ff73f9-7b19-4347-a69f-72dd135fd67d": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				766
+			],
+			"allTests": [
+				{
+					"Status code name should have an OK string": true,
+					"Status code is 200": true,
+					"confirm id is 4c03efcb-f082-448a-a23a-59efc623ef2f": true,
+					"confirm name is MyTutorCollection": true,
+					"confirm description is For collection of my own examples during tutorial training": true,
+					"confirm auth is null": true,
+					"confirm event is null ": true,
+					"confirm variables is [0] ": true,
+					"confirm order [1] is acd9e54c-f8ff-49ce-92c5-bd4ca1d3ca36 ": true,
+					"confirm folders_order: [3] ced65177-78d1-43e6-8e7a-ba20571d8f05": true,
+					"confirm requests [12] has id 53ff73f9-7b19-4347-a69f-72dd135fd67d": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 5199,
+	"collection": {
+		"requests": [
+			{
+				"id": "95a47fe5-2c2f-4f3f-90ea-3d65d5e699d0",
+				"method": "GET"
+			},
+			{
+				"id": "901058e5-f203-4ba8-82e5-56252322b2f7",
+				"method": "GET"
+			},
+			{
+				"id": "cc779999-2e59-4225-b8f3-b743b917d994",
+				"method": "GET"
+			},
+			{
+				"id": "3fc5ffd0-d3a2-4655-afae-1f2ec33e4dc0",
+				"method": "GET"
+			},
+			{
+				"id": "eb1ac2b7-9fec-4600-968a-c39e9a60ea8e",
+				"method": "GET"
+			},
+			{
+				"id": "4ecef4dd-dcb2-4b4c-b708-c6c6cc349109",
+				"method": "GET"
+			},
+			{
+				"id": "5cbba24a-cd6b-4bd1-b335-10149d1d6fa5",
+				"method": "GET"
+			},
+			{
+				"id": "b498f283-9159-4176-9ee4-89e9dc4a5aaf",
+				"method": "GET"
+			},
+			{
+				"id": "fd957f4c-90ac-4345-b9ed-bf6c983d5501",
+				"method": "GET"
+			}
+		]
+	}
+}
